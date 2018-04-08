@@ -8,9 +8,9 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
  
-/* The array below will hold the arguments: args[0] is the comando. */
+
 static char* args[512];
-static int n = 0;      /* number of calls to 'comando' */
+static int n = 0;      
 pid_t pid;
 int comando_pipe[2];
 
